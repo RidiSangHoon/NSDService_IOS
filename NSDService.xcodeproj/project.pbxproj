@@ -14,6 +14,7 @@
 		CAB257A21FA1B3D1003B4CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB257A01FA1B3D1003B4CB4 /* LaunchScreen.storyboard */; };
 		CAB257AD1FA1B3D1003B4CB4 /* NSDServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB257AC1FA1B3D1003B4CB4 /* NSDServiceTests.swift */; };
 		CAB257B81FA1B3D1003B4CB4 /* NSDServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB257B71FA1B3D1003B4CB4 /* NSDServiceUITests.swift */; };
+		CAB257C61FA1BCCB003B4CB4 /* NSDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB257C51FA1BCCB003B4CB4 /* NSDHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CAB257B31FA1B3D1003B4CB4 /* NSDServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB257B71FA1B3D1003B4CB4 /* NSDServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDServiceUITests.swift; sourceTree = "<group>"; };
 		CAB257B91FA1B3D1003B4CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB257C51FA1BCCB003B4CB4 /* NSDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CAB257971FA1B3D1003B4CB4 /* AppDelegate.swift */,
+				CAB257C51FA1BCCB003B4CB4 /* NSDHelper.swift */,
 				CAB257991FA1B3D1003B4CB4 /* ViewController.swift */,
 				CAB2579B1FA1B3D1003B4CB4 /* Main.storyboard */,
 				CAB2579E1FA1B3D1003B4CB4 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB257C61FA1BCCB003B4CB4 /* NSDHelper.swift in Sources */,
 				CAB2579A1FA1B3D1003B4CB4 /* ViewController.swift in Sources */,
 				CAB257981FA1B3D1003B4CB4 /* AppDelegate.swift in Sources */,
 			);

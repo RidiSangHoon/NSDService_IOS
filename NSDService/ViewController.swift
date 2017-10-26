@@ -1,25 +1,25 @@
-//
-//  ViewController.swift
-//  NSDService
-//
-//  Created by LeeSangHoon on 2017. 10. 26..
-//  Copyright © 2017년 LeeSangHoon. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    private let nsdHelper = NSDHelper()
+    @IBOutlet weak var showText: UITextView!
+    @IBOutlet weak var inputText: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func registerBtnTapped(_ sender: Any) {
     }
-
-
+    
+    @IBAction func discoverBtnTapped(_ sender: Any) {
+    }
+    
+    @IBAction func connectBtnTapped(_ sender: Any) {
+    }
+    
+    @IBAction func sendBtnTapped(_ sender: Any) {
+    }
 }
 
