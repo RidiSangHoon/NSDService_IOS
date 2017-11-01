@@ -16,9 +16,6 @@ class ViewController: UIViewController {
         nsdHelper.registerSetting()
     }
     
-    @IBAction func discoverBtnTapped(_ sender: Any) {
-    }
-    
     @IBAction func sendBtnTapped(_ sender: Any) {
         showText.text = "\(showText.text!)\nme : \(String(describing: inputText.text!))"
         nsdHelper.send(sendMsg: inputText.text!)

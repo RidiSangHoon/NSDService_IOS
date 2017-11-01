@@ -10,7 +10,6 @@ protocol NSDHelperDelegate {
 class NSDHelper : NSObject {
     
     public var delegate: NSDHelperDelegate?
-    
     private let devicePeerId = MCPeerID(displayName: UIDevice.current.name)
     private let serviceAdvertiser: MCNearbyServiceAdvertiser
     private let serviceBrower: MCNearbyServiceBrowser

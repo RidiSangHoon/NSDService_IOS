@@ -30,9 +30,6 @@
                                 <rect key="frame" x="112" y="40" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="DISCOVER"/>
-                                <connections>
-                                    <action selector="discoverBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejC-7q-NYq"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AzL-I9-pg7">
                                 <rect key="frame" x="208" y="40" width="116" height="30"/>
