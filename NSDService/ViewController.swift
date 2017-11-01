@@ -20,15 +20,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sendBtnTapped(_ sender: Any) {
-        showText.text = "\(showText.text)\nme : \(String(describing: inputText.text))"
+        showText.text = "\(showText.text!)\nme : \(String(describing: inputText.text!))"
         nsdHelper.send(sendMsg: inputText.text!)
+        inputText.text = ""
     }
 }
 
 extension ViewController: NSDHelperDelegate {
     func receivedMsg(manager: NSDHelper, msg: String) {
         print("receivedMsg => ",msg)
-        showText.text = "\(showText.text!)\nthem : \(msg)"
+        DispatchQueue.main.async {
+            self.showText.text = "\(self.showText.text!)\nthem : \(msg)"
+        }
     }
     
     func connectedDevicesChanged(manager: NSDHelper, connectedDevices: [String]) {
